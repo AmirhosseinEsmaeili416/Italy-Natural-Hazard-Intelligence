@@ -1,0 +1,4 @@
+severity,hours,max_rainfall,mean_rainfall,mean_openmeteo,mean_difference
+Exceptional,1,135.0,135.0,1.3,133.7
+Heavy,8,43.2,32.0,0.95,31.049999999999997
+Very Heavy,3,56.8,53.26666666666667,1.6666666666666667,51.6
