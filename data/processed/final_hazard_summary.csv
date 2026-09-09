@@ -1,11 +1,11 @@
-indicator,value
-Rainfall station,GENOVA - GEIRATO
-Municipality,GENOVA
-Maximum observed rainfall (mm),135.0
-Mean rainfall (mm),6.46
-Median rainfall (mm),0.0
-Number of observations,107
-Hazard class,Exceptional
-Municipalities within 10 km,13
-ARPA vs Open-Meteo MAE (mm),6.64
-Maximum absolute difference (mm),133.7
+Indicator,Value,Unit
+Event total rainfall (ARPA),559.0,mm
+Event total rainfall (Open-Meteo),68.0,mm
+Event rainfall difference,491.0,mm
+Open-Meteo / ARPA rainfall ratio,12.16,%
+Maximum hourly rainfall (ARPA),135.0,mm
+Maximum hourly rainfall (Open-Meteo),3.8,mm
+Maximum 3-hour accumulation (ARPA),215.0,mm
+Maximum 6-hour accumulation (ARPA),256.6,mm
+Maximum 12-hour accumulation (ARPA),265.8,mm
+Maximum 24-hour accumulation (ARPA),438.4,mm
