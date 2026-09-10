@@ -212,3 +212,8 @@ Italy-Natural-Hazard-Intelligence/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+---
+
+## Project Status
+
+🟢 Completed
