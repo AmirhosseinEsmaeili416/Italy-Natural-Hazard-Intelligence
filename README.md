@@ -38,9 +38,18 @@ The station is located at approximately:
 
 A **10 km spatial buffer** around the station was used to identify nearby municipal areas potentially relevant to the observed rainfall event.
 
-The spatial analysis identified **13 municipalities** intersecting the 10 km station-based context.
+The spatial analysis identified **municipal spatial units** intersecting the 10 km station-based context.
 
 Because rainfall observations are available from a single station, the spatial analysis should be interpreted as a **station-based hazard context**, not as a rainfall distribution map for the whole Liguria region.
+
+---
+## Key Findings
+
+- The cleaned ARPA station dataset recorded **135.0 mm in a single hourly record** during the 9–10 October 2014 event.
+- The event total at **GENOVA - GEIRATO** was **559.0 mm** in the comparison window.
+- Maximum time-based accumulations reached **215.0 mm (3 h)**, **256.6 mm (6 h)**, **265.8 mm (12 h)** and **438.4 mm (24 h)**.
+- The largest hourly ARPA–Open-Meteo discrepancy was **133.7 mm**, with ARPA recording 135.0 mm and Open-Meteo estimating 1.3 mm.
+- The spatial analysis provides a **10 km station-based hazard context** around the rainfall station and its surrounding municipal spatial units.
 
 ---
 
@@ -207,11 +216,20 @@ Italy-Natural-Hazard-Intelligence/
 ├── qgis/
 │   ├── flash_flood_hazard.qgz
 │   ├── station_genova_metric.gpkg
-│   └── station_buffer_10km.gpkg
+│   ├── station_buffer_10km.gpkg
+│   └── municipalities_near_station_10km.gpkg
 │
 ├── .gitignore
 ├── LICENSE
 └── README.md
+---
+## Limitations
+
+- Rainfall observations are available from one station, so the spatial results represent a **station-based hazard context** rather than a regional rainfall distribution.
+- Open-Meteo precipitation is a **gridded historical estimate** and is not a second ground-based station observation.
+- The event dataset contains missing hourly records; accumulation windows were evaluated using **time-based completeness checks**.
+- The analysis focuses on one historical event and should not be interpreted as a general climatology or a probabilistic flood-risk model.
+
 ---
 
 ## Project Status
